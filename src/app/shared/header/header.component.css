@@ -1,0 +1,55 @@
+
+  .header {
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .header .logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  
+  .header .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 100px;
+  }
+  
+  .header .nav ul li {
+    display: inline;
+  }
+  
+  .header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+  }
+  
+  .header .nav ul li a:hover {
+    background: #fbd784;
+    border-radius: 4px;
+  }
+  
+  a{
+    cursor: pointer;
+  }
+
+  .donate-btn {
+    background-color: #1D2130;
+    margin-left: 400px;
+  }

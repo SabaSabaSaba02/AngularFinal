@@ -1,0 +1,650 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+
+ /* General Styles */
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../../public/home_1.jpg);
+  background-clip: border-box;
+  background-size: cover;
+  height: 1000px;
+}
+
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 660px;
+  
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: white;
+
+}
+
+.hero-text p {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  padding: 10px 20px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-buttons .btn-primary {
+  background-color: white;
+  color: black;
+}
+
+.hero-buttons .btn-secondary {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero-stats p {
+  margin-top: 110px;
+  font-size: 14px;
+  color: white;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+
+/* About Us Section */
+/* General Styles */
+.about-us-section {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-us-text {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn-learn-more {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-learn-more:hover {
+  background-color: #e0a800;
+}
+
+.about-us-image {
+  flex: 1;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button i {
+  font-size: 20px;
+}
+
+.supporters-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.supporters-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.supporters-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.supporters-logos img {
+  width: 100px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.supporters-logos img:hover {
+  opacity: 1;
+}
+
+
+/* Supporters Section */
+.our-supporters {
+  margin-top: 40px;
+  padding-left: 200px;
+}
+
+.our-supporters h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.supporters-logos {
+  display: flex;
+  gap: 190px;
+}
+.supporters-logos img {
+  max-width: 100px;
+  margin: 0 10px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.supporters-logos img:hover {
+  opacity: 1;
+}
+
+/* What We Do Section */
+
+/* Scoped Styles for What We Do Section */
+.what-we-do {
+  background-color: #fff5d4;
+  padding: 60px 20px;
+}
+
+.what-we-do .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.what-we-do .content {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.what-we-do h2 {
+  font-size: 16px;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.what-we-do h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.what-we-do p {
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.what-we-do .services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.what-we-do .services-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.what-we-do .services-list .icon {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #333;
+}
+
+.what-we-do .services-list h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.what-we-do .services-list p {
+  margin: 0;
+  color: #555;
+}
+
+.what-we-do .image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.what-we-do .image img {
+  width: 100%;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.services {
+  background-color: #fff5d4;
+  padding: 60px 20px;
+}
+
+.services-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.services-content p {
+  margin-bottom: 20px;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
+
+.services-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+  /* Projects Section */
+  /* Scoped Styles for Projects Done Section */
+.projects-done {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects-done .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-done h3 {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+}
+
+.projects-done h1 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.projects-done .projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projects-done .project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  background-image: url(../../../../public/childs.jpg);
+  background-size: cover;
+}
+
+.projects-done .project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projects-done .card-content {
+  padding: 20px;
+}
+
+.projects-done .card-content h2 {
+  font-size: 26px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.projects-done .card-content p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.projects-done .card-content .learn-more {
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.projects-done .card-content .learn-more:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+
+  /* General Styles */
+.donations-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Donations Section */
+.donations {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.donations h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.donations p {
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.donations-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.donations-breakdown {
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.donations-breakdown li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.color-box.green {
+  background-color: #50c878;
+}
+
+.color-box.pink {
+  background-color: #ff69b4;
+}
+
+.color-box.yellow {
+  background-color: #ffd700;
+}
+
+.color-box.purple {
+  background-color: #9370db;
+}
+
+.color-box.cream {
+  background-color: #ffe4b5;
+}
+
+.donations-chart {
+  flex: 1;
+  text-align: center;
+}
+
+.donations-chart img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Volunteer Section */
+.volunteer {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url(../../../../public/childs.jpg);
+  background-size: cover;
+  justify-content: center;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 2%;
+}
+
+.volunteer-content h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.volunteer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.volunteer-buttons .btn-primary,
+.volunteer-buttons .btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.volunteer-buttons .btn-primary {
+  background-color: yellow;
+  color: black;
+}
+
+.volunteer-buttons .btn-secondary {
+  background-color: white;
+  color: black;
+}
+
+.volunteer-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Events Section */
+.events {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: left;
+  line-height: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.events h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.events-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background-color: #f4c10f;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 150px;
+}
+
+.event-date {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.event-date h3 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.event-date p {
+  margin: 0;
+}
+
+.event-details h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.event-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.event-arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+  

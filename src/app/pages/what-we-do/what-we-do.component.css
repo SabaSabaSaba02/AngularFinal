@@ -1,0 +1,403 @@
+
+
+/* About Us Section */
+/* General Styles */
+.about-us-section {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .about-us-text {
+    flex: 1;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .main-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn-learn-more {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: #e0a800;
+  }
+  
+  .about-us-image {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image-wrapper {
+    position: relative;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .play-button i {
+    font-size: 20px;
+  }
+  
+  .supporters-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .supporters-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .supporters-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .supporters-logos img {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .supporters-logos img:hover {
+    opacity: 1;
+  }
+  
+  
+  /* Supporters Section */
+  .our-supporters {
+    margin-top: 40px;
+    padding-left: 200px;
+
+  }
+  
+  .our-supporters h3 {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  .supporters-logos {
+    display: flex;
+    gap: 190px;
+  }
+  .supporters-logos img {
+    max-width: 100px;
+    margin: 0 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .supporters-logos img:hover {
+    opacity: 1;
+  }
+  
+
+  .special-needs-section {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #FCEDC6;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .special-needs-section h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+  }
+  
+  .service-item {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .service-item .icon {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+    /* Projects Section */
+  /* Scoped Styles for Projects Done Section */
+.projects-done {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .projects-done .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .projects-done h3 {
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+  }
+  
+  .projects-done h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 40px;
+    line-height: 1.4;
+  }
+  
+  .projects-done .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .projects-done .project-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    background-image: url(../../../../public/childs.jpg);
+    background-size: cover;
+  }
+  
+  .projects-done .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .projects-done .card-content {
+    padding: 20px;
+  }
+  
+  .projects-done .card-content h2 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .projects-done .card-content p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .projects-done .card-content .learn-more {
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .projects-done .card-content .learn-more:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+
+/* Volunteer Section */
+.volunteer {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+    background-image: url(../../../../public/childs.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 2%;
+  }
+  
+  .volunteer-content h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .volunteer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .volunteer-buttons .btn-primary,
+  .volunteer-buttons .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .volunteer-buttons .btn-primary {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .volunteer-buttons .btn-secondary {
+    background-color: white;
+    color: black;
+  }
+  
+  .volunteer-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Events Section */
+  .events {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: left;
+    line-height: 30px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .events h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 80px;
+    padding-bottom: 20px;
+  }
+  
+  .events-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    background-color: #f4c10f;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 150px;
+  }
+  
+  .event-date {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .event-date h3 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .event-date p {
+    margin: 0;
+  }
+  
+  .event-details h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .event-details p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .event-arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
