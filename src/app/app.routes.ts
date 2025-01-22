@@ -9,18 +9,22 @@ import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { MainComponent } from './pages/main/main.component';
 
 export const routes: Routes = [
-    { path: '', component: MainComponent, 
-        children: [
-            { path: '', redirectTo: 'home', pathMatch: 'full'},
-            { path: 'home', component: HomeComponent },
-            { path: 'about', component: AboutComponent },
-            { path: 'what-we-do', component: WhatWeDoComponent },
-            { path: 'media', component: MediaComponent },
-            { path: 'contact-us', component: ContactUsComponent },
-        ]
-    },
-    { path: 'login', component: LoginComponent},
-    { path: 'sign-up', component: SignUpComponent},
+  {
+    path: '',
+    component: MainComponent,
+    children: [
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'home', component: HomeComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'what-we-do', component: WhatWeDoComponent },
+      { path: 'media', component: MediaComponent },
+      { path: 'contact-us', component: ContactUsComponent },
+    ],
+  },
 
+  { path: 'login', component: LoginComponent },
+
+  { path: 'sign-up', component: SignUpComponent },
+
+  { path: '**', redirectTo: '' },
 ];
-

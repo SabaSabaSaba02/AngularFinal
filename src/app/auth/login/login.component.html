@@ -1,16 +1,30 @@
 <div class="container">
-    <form>
-        <h2>LOGIN</h2>
-
-        <div class="form-group">
-            <input type="email" name="email" placeholder="Email">
-        </div>
-        <div class="form-group">
-            <input type="password" name="password"  placeholder="Password">
-        </div>
-        <button type="submit" >Login</button>
-        <p>
-            Don't have an account ? <span class="highlighted">REGISTER</span>
-        </p>
+    <form (submit)="onLogin()">
+      <h2>LOGIN</h2>
+  
+      <div class="form-group">
+        <input
+          type="email"
+          name="email"
+          [(ngModel)]="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <button type="submit">Login</button>
+      <p>
+        Don't have an account?
+        <span class="highlighted" routerLink="/sign-up">REGISTER</span>
+      </p>
     </form>
-</div>
+  </div>
+  
